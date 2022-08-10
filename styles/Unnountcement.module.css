@@ -1,0 +1,11 @@
+.container {
+  height: 100%;
+  background-color: #fcf1ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.annount {
+  letter-spacing: 3px;
+}

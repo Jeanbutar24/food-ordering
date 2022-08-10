@@ -1,0 +1,31 @@
+.bigcontainer {
+  height: 100%;
+  background-color: #fcf1ed;
+  padding: 15px;
+}
+
+.wrapperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container {
+  flex: 1;
+  margin: 5px;
+  min-width: 280px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  cursor: pointer;
+}
+.img {
+  object-fit: cover;
+  border-radius: 40px;
+  height: 50%;
+}

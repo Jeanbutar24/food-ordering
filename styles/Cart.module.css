@@ -1,0 +1,126 @@
+.container {
+  height: 100%;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.title {
+  font-weight: 300;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.top button {
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid teal;
+  background-color: transparent;
+  color: black;
+}
+
+.texts .text {
+  padding: 5px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom .info {
+  flex: 3;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.product .productDetail {
+  flex: 2;
+  display: flex;
+}
+
+.product .detail {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.product .detail span {
+  padding: 5px;
+}
+
+.priceDetail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.addContainer {
+  margin-top: 20px;
+}
+
+.amountContainer {
+  display: flex;
+  align-items: center;
+}
+.count {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  font-weight: 500;
+}
+.price {
+  margin: 20px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.summary {
+  flex: 1;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  height: 50vh;
+}
+.summary h1 {
+  font-weight: 200;
+}
+.summaryItem {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.summaryTotal {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 500;
+}
+/* .summary .summaryItem .sumText{}
+.summary .summaryItem .sumPrice{} */
+.summary button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+}
